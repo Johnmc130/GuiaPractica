@@ -23,7 +23,6 @@ CUENCA_NODES: Dict[str, Dict[str, float]] = {
     "Museo Pumapungo": {"lat": -2.90607, "lon": -78.99681, "descripcion": "Museo de antropología"},
     "Terminal Terrestre": {"lat": -2.89222, "lon": -78.99277, "descripcion": "Terminal de autobuses"},
     "Mirador de Turi": {"lat": -2.92583, "lon": -79.0040, "descripcion": "Mirador con vista panorámica"},
-    # 10 PUNTOS ADICIONALES
     "Universidad de Cuenca": {"lat": -2.90138, "lon": -79.00583, "descripcion": "Universidad principal de la ciudad"},
     "Plaza de las Flores": {"lat": -2.89694, "lon": -79.00472, "descripcion": "Mercado de flores tradicional"},
     "Barranco": {"lat": -2.90111, "lon": -79.00083, "descripcion": "Paseo junto al río Tomebamba"},
@@ -36,7 +35,7 @@ CUENCA_NODES: Dict[str, Dict[str, float]] = {
     "Aeropuerto Mariscal Lamar": {"lat": -2.88944, "lon": -78.98472, "descripcion": "Aeropuerto de Cuenca"},
 }
 
-# Conexiones del grafo (ampliado con los nuevos nodos)
+# Conexiones del grafo
 GRAPH_EDGES = {
     "Catedral Nueva": ["Parque Calderón", "Puente Roto", "Museo Pumapungo", "Plaza de las Flores", "Universidad de Cuenca"],
     "Parque Calderón": ["Catedral Nueva", "Terminal Terrestre", "Puente Roto", "Plaza de las Flores", "Mercado 10 de Agosto"],
